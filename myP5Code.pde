@@ -15,4 +15,6 @@ draw = function() {
     ellipse(200, y, 50, 50);
 
     y = y + speed;  // move the ball
+
+    if(y>400)
 };
